@@ -1,0 +1,92 @@
+* {
+    font-family: Noto Sans;
+}
+
+.contents{
+    height: auto;
+    min-height: 100%;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #fff;
+    border-bottom: solid;
+    border-color: rgba(140, 185, 139, 1);
+    border-width: 5px;
+    margin-top: 5px;
+}
+
+/* 사이트 제목 */
+.navbar-brand {
+    margin-left: 25px;
+    margin-right: 100px;
+    padding: 8px;
+}
+
+.navbar-brand:hover {
+    color: rgba(140, 185, 139, 1);
+}
+
+/* Navigation Bar 안에 글씨 */
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-item a {
+    color: #000;
+    border-radius: 10px;
+}
+
+.nav-item a:hover {
+    color: rgba(140, 185, 139, 1);
+}
+
+/* 로그인&회원가입 버튼 */
+.btn {
+    color: #000;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: rgba(140, 185, 139, 1);
+}
+
+.btn:active{
+    color: #fff;
+    background-color: rgba(140, 185, 139, 1);
+
+}
+.navbar-toggler:hover {
+    background-color: rgba(140, 185, 139, 1);
+}
+
+/* 로그인 페이지 */
+.btn-lg { /* 로그인 버튼 */
+    background-color: rgba(140, 185, 139, 1);
+}
+.log-in { /* 로그인 박스 */
+    max-width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* Footer */
+.footer{
+    position: relative;
+    bottom: 0;
+    transform: translateY(-100%);
+    background-color: rgba(140, 185, 139, 1);
+    padding-top: 30px;
+}
+.nav-lick{
+    transform: translateY(50%);
+}
+
+.foot-item{
+    color:#000;
+}
