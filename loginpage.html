@@ -13,7 +13,7 @@
             href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap"
             rel="stylesheet" />
         <link rel="stylesheet" href="./style.css">
-        <title>사이트이름</title>
+        <title>로그인페이지</title>
     </head>
     <body>
         <script
@@ -22,57 +22,68 @@
             crossorigin="anonymous"></script>
         <!--Navigation Bar-->
         <div class="contents">
-            <nav class="navbar navbar-expand-md navbar" aria-label="Fourth
-                navbar
-                example">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">사이트이름</a>
-                    <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarsExample04"
-                        aria-controls="navbarsExample04" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarsExample04">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page"
-                                    href="#">자유게시판</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">인증게시판</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">자유게시판</a>
-                            </li>
-                        </ul>
-                        <div class="col-md-3 text-end">
-                            <a href="#" class="btn" role="button">로그인</a>
-                            <a href="#" class="btn" role="button">회원가입</a>
+            <div class="menu-bar">
+                <nav class="navbar navbar-expand-md navbar" aria-label="Fourth
+                    navbar
+                    example">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">사이트이름</a>
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample04"
+                            aria-controls="navbarsExample04"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse"
+                            id="navbarsExample04">
+                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page"
+                                        href="#">정보게시판</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">인증게시판</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="free-writing.html">자유게시판</a>
+                                </li>
+                            </ul>
+                            <div class="col-md-3 text-end">
+                                <a href="login.html" class="btn" role="button">로그인</a>
+                                <a href="#" class="btn" role="button">회원가입</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
             <!--로그인폼-->
             <form class="log-in">
-                <h1 class="h3 mb-3 fw-normal"> </h1>
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInput"
-                        placeholder="name@example.com">
-                    <label for="floatingInput">이메일</label>
+                <div class="box">
+                    <h1 class="h3 mb-3 fw-normal"> </h1>
+                    <div class="form-floating">
+                        <input type="email" class="form-control email"
+                            id="floatingInput"
+                            placeholder="name@example.com">
+                        <label for="floatingInput">이메일</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control password"
+                            id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">비밀번호</label>
+                    </div>
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> 로그인 유지하기
+                        </label>
+                    </div>
+                    <button class="w-100 btn btn-lg" type="submit">SIGN IN</button>
+                    <div class="text-center text">
+                        <a href="#" class="btn btn-sm" role="button">회원가입</a>
+                        <a href="#" class="btn btn-sm" role="button">비밀번호찾기</a>
+                    </div>
                 </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control"
-                        id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">비밀번호</label>
-                </div>
-                <div class="checkbox mb-3">
-                    <label>
-                        <input type="checkbox" value="remember-me"> 로그인 유지하기
-                    </label>
-                </div>
-                <button class="w-100 btn btn-lg" type="submit">Sign in</button>
             </form>
         </div>
         <!--Footer-->
